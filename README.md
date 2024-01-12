@@ -13,7 +13,7 @@
   - SwapObjects(ref num1, ref num2) with num1 = 25, num2 = 30 // Numbers after swap: 30, 25
   - SwapObjects(str1, str2) with str1 = "HelloWorld", str2 = "Programming" // Strings after swap: "Programming", "HelloWorld"
   - SwapObjects(ref num1, str 1) // Error: Objects must be of same types
-  - SwapObjects(true, false) // Error: Unsupoorted type
+  - SwapObjects(true, false) // Error: Unsuported type
 
 ## Challenge 3: Guessing Game
 - Objective: Implement a number guessing game.
