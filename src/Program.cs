@@ -13,11 +13,19 @@ namespace FunctionChallenges
             // Challenge 2: Object Swapper
             Console.WriteLine("\nChallenge 2: Object Swapper");
             int num1 = 25, num2 = 30;
+            int num 3 = 10, num4 = 30;
             string str1 = "HelloWorld", str2 = "Programming";
-            SwapObjects(ref num1, str1); // Error: Objects must be of same types
-            SwapObjects(true, false); // Error: Upsupported data type
-            SwapObjects(ref num1, ref num2); // Expected outcome: num1 = 30, num2 = 25
+            string str3 = "Hi, str4 = "Programming";
+                          
+            SwapObjects(ref num1, ref num2); // Expected outcome: num1 = 30, num2 = 25  
+            SwapObjects(ref num3, ref num4); // Error: Value must be more than 18
+
             SwapObjects(str1, str2); // Expected outcome: str1 = "Programming", str2 = "HelloWorld"
+            SwapObjects(str3, str4); // Error: Length must be more than 5
+
+            SwapObjects(true, false); // Error: Upsupported data type
+            SwapObjects(ref num1, str1); // Error: Objects must be of same types
+
             Console.WriteLine($"Numbers: {num1}, {num2}");
             Console.WriteLine($"Strings: {str1}, {str2}");
 
