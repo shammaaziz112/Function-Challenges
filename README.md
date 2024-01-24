@@ -2,7 +2,7 @@
 
 ## Challenge 1: String and Number Processor
 - Objective: Create a function that processes a mix of string and number inputs.
-- Description: Concatenate string inputs into a single sentence and sum up all number inputs. The function should print and return the final concatenated string and the sum of numbers.
+- Description: Concatenate string inputs into a single sentence and sum up all number inputs. The function should print the final concatenated string and the sum of numbers.
 - Test Case: StringNumberProcessor("Hello", 100, 200, "World")
 - Expected Outcome: "Hello World; 300"
   
