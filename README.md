@@ -7,11 +7,13 @@
 - Expected Outcome: "Hello World; 300"
   
 ## Challenge 2: Object Swapper
-- Objective: Write a function to swap two objects with specific conditions.
-- Description: The function should only swap objects if they are of the same type. For strings, their lengths must be more than 5, and for numbers, they must be more than 18.
+- Objective: Write a function to swap values of two objects with specific conditions.
+- Description: The function should only swap objects if they are of the same type, either string or number. For string, their lengths must be more than 5, and for number, they must be more than 18.
 - Test Cases:
-  - SwapObjects(ref num1, ref num2) with num1 = 25, num2 = 30 // Numbers after swap: 30, 25
-  - SwapObjects(str1, str2) with str1 = "HelloWorld", str2 = "Programming" // Strings after swap: "Programming", "HelloWorld"
+  - SwapObjects(ref num1, ref num2) with num1 = 25, num2 = 30 // Values after swap: 30, 25
+  - SwapObjects(str1, str2) with str1 = "HelloWorld", str2 = "Programming" // Values after swap: "Programming", "HelloWorld"
+  - SwapObjects(str1, str2) with str1 = "Hi", str2 = "Programming" // Error: Length must be more than 5
+  - SwapObjects(ref num1, ref num2) with num1 = 10, num2 = 30 // Error: Value must be more than 18
   - SwapObjects(ref num1, str 1) // Error: Objects must be of same types
   - SwapObjects(true, false) // Error: Unsuported type
 
