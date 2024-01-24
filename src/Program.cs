@@ -33,3 +33,4 @@ namespace FunctionChallenges
             Console.WriteLine(reversed); // Expected outcome: "sihT si eht lanigiro !ecnetnes"
         }
     }
+}
