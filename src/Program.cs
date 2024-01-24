@@ -15,7 +15,7 @@ namespace FunctionChallenges
             int num1 = 25, num2 = 30;
             int num 3 = 10, num4 = 30;
             string str1 = "HelloWorld", str2 = "Programming";
-            string str3 = "Hi, str4 = "Programming";
+            string str3 = "Hi", str4 = "Programming";
                           
             SwapObjects(ref num1, ref num2); // Expected outcome: num1 = 30, num2 = 25  
             SwapObjects(ref num3, ref num4); // Error: Value must be more than 18
